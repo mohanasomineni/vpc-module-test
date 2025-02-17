@@ -1,8 +1,8 @@
 # Local .terraform directories
 **/.terraform/*
 
-echo ".terraform/" 
-echo "*.exe" 
+.terraform/
+*.exe
 
 # .tfstate files
 *.tfstate
