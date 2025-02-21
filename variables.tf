@@ -12,15 +12,15 @@ variable "vpc_cidr" {
 
 variable "common_tags" {
   default = {
-    project = "expense"
-    environment = "dev"
-    terraform = "true"
+    Project = "expense"
+    Environment = "dev"
+    Terraform = "true"
   }
 }
 
 variable "vpc_tags" {
   default = {
-    purpose = "assignment"
+    Purpose = "assignment"
   }
 }
 
